@@ -10,11 +10,11 @@ services:
     image: harness/delegate:22.11.77435
     environment:
       - ACCOUNT_ID=fh3GwEK0TV2Qjb-B4obkjw
-      - DELEGATE_TOKEN=601c031ccc5331b67c0cb95c2d8837ae
+      - DELEGATE_TOKEN=19e32d989a3b761763a7e3d1af76acd5
       - MANAGER_HOST_AND_PORT=https://app.harness.io/gratis
       - LOG_STREAMING_SERVICE_URL=https://app.harness.io/gratis/log-service/
       - DEPLOY_MODE=KUBERNETES
-      - DELEGATE_NAME=sample-2d54c006-3f4e-4627-975d-c28f02ccb401-delegate
+      - DELEGATE_NAME=traefik-test
       - NEXT_GEN=true
       - DELEGATE_TYPE=DOCKER
       - DELEGATE_TAGS=
